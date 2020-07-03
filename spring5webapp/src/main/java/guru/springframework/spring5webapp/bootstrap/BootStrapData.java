@@ -46,7 +46,7 @@ public class BootStrapData implements CommandLineRunner {
         bookRepository.save(noEJB);
 
 
-        Publisher publisher = new Publisher("testPublisher","148 Willow View", "Cibolo", "Texas", 78108 );
+        Publisher publisher = new Publisher("SFG Publishing","148 Willow View", "Cibolo", "Texas", 78108 );
         publisher.getBooks().add(ddd);
         publisher.getBooks().add(noEJB);
 
